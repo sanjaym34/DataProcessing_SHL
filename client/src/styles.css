@@ -1,0 +1,85 @@
+/* CSS for the whole body */
+body {
+    background-color: #F8F9FA;
+    color: #333333;
+}
+
+/* CSS for the searchBar */
+.search {
+    display: block;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid grey;
+    align-items: center;
+}
+
+/* CSS for the Cards */
+.card {
+    background-color: #F0F0F0;
+    border: 1px solid #0E0E0E;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    height: 300px;
+    max-width: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    overflow: hidden; /*To make sure that data inside the card doesnot overflow*/
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* CSS for the DetailsModal */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /*For the opacity of the background*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    text-align: left;
+}
+
+.modal-content h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.close-button {
+    background-color: #E0E0E0;
+    color: #333333;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.close-button:hover {
+    background-color: #C2C2C2;
+}
