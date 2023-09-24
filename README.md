@@ -21,8 +21,6 @@ We have 2 folders: `server` which contains the code for the whole backend and `c
     * Initial Release
 
 ## Acknowledgments
-
-Inspiration, code snippets, etc.
 * [exceljs](https://www.npmjs.com/package/exceljs)
 * [mongoose](https://www.npmjs.com/package/mongoose)
 * [CORS](https://www.npmjs.com/package/cors)
